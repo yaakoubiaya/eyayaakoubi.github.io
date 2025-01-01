@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio d'Eya Yaakoubi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #94385a;
+            color: #fff;
+            padding: 30px 0;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .profile-img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            margin-right: 30px;
+        }
+
+        header h1 {
+            font-size: 2rem;
+        }
+
+        header p {
+            font-size: 1rem;
+        }
+
+        section {
+            margin: 50px 0;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: #425a93;
+        }
+
+        #skills .skills-list {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .skill {
+            flex: 1;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .skill h3 {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+
+        #projects .project {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #projects .project h3 {
+            font-size: 1.6rem;
+            margin-bottom: 10px;
+        }
+
+        #projects .project p {
+            font-size: 1rem;
+            color: #574d4d;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #1e2a47;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <img src="photo-profil.jpg.jpg" alt="Eya Yaakoubi" class="profile-img">
+                <div class="header-text">
+                    <h1>Eya Yaakoubi</h1>
+                    <p>Étudiante en Informatique de Gestion | Spécialité E-business</p>
+                    <p><strong>Contact :</strong> yaakoubieya88@gmail.com | +216 51 009 546</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>À propos de moi</h2>
+            <p>Étudiante en 3ème année Business Computing, passionnée par le développement et les technologies émergentes. 
+                Je recherche des opportunités pour approfondir mes compétences et contribuer à des solutions numériques innovantes.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Mes Compétences</h2>
+            <div class="skills-list">
+                <div class="skill">
+                    <h3>Langages de Programmation</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>C/C++</li>
+                    </ul>
+                </div>
+                <div class="skill">
+                    <h3>Développement Mobile</h3>
+                    <ul>
+                        <li>Android</li>
+                    </ul>
+                </div>
+                <div class="skill">
+                    <h3>Développement Web</h3>
+                    <ul>
+                        <li>PHP</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+                <div class="skill">
+                    <h3>Business Intelligence</h3>
+                    <ul>
+                        <li>Power BI</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projets Académiques</h2>
+            <div class="project">
+                <h3>Application mobile de conseil medicale</h3>
+                <p><strong>Technologies utilisées : </strong>Java, android</p>
+                <p>Cette application permet d'aider les utilisateurs de consulter un medecine en ligne</p>
+            </div>
+            <div class="project">
+                <h3>Application Web pour la gestion des voitures tunisiennes</h3>
+                <p><strong>Technologies utilisées : </strong>Java, JavaFX, SceneBuilder</p>
+                <p>Cette application permet de gérer les informations relatives aux voitures en Tunisie, y compris l'enregistrement des véhicules, le suivi des entretiens et des immatriculations.</p>
+            </div>
+            <div class="project">
+                <h3>Site e-commerce pour la vente des marques</h3>
+                <p><strong>Technologies utilisées : </strong>Laravel, PHP 7.4, SQL, HTML, CSS</p>
+                <p>Site destiné à la vente en ligne de produits de différentes marques, avec gestion des commandes et des paiements.</p>
+            </div>
+            <div class="project">
+                <h3>Projet Power BI pour la gestion des parkings</h3>
+                <p><strong>Technologies utilisées : </strong>Power BI</p>
+                <p>Un tableau de bord Power BI permettant de visualiser et analyser les données de gestion des parkings d'une entreprise.</p>
+            </div>
+            <div class="project">
+                <h3>mini projet de Restaurant Menu </h3>
+                <p>Ce projet permet d'aider les utilisateurs de Reserver en ligne    <a href="https://github.com/yaakoubiaya/yaakoubi-eya.git">  voir le projet  </a></p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="certifications">
+        <div class="container">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Microsoft Word</li>
+                <li>Microsoft PowerPoint</li>
+                <li>Microsoft Excel</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Eya Yaakoubi. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
